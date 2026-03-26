@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 5px;
+}
+
+input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+.current-weather {
+    margin-bottom: 20px;
+}
+
+#weatherIcon {
+    width: 100px;
+    height: 100px;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.forecast-day {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    width: 80px;
+}
+
+.forecast-day img {
+    width: 50px;
+    height: 50px;
+}
